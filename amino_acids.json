@@ -1,0 +1,65 @@
+{
+    "fenilalanin": [
+        "UUU", "UUC"
+    ],
+    "leucin": [
+        "UUA", "UUG", "CUU", "CUC", "CUA", "CUG"
+    ],
+    "szerin": [
+        "UCU", "UCC", "UCA", "UCG", "AGU", "AGC"
+    ],
+    "tirozin": [
+        "UAU", "UAC"
+    ],
+    "STOP": [
+        "UAA", "UAG", "UGA"
+    ],
+    "cisztein": [
+        "UGU", "UGC"
+    ],
+    "triptofán": [
+        "UGG"
+    ],
+    "prolin": [
+        "CCU", "CCC", "CCA", "CCG"
+    ],
+    "hisztidin": [
+        "CAU", "CAC"
+    ],
+    "glutamin": [
+        "CAA", "CAG"
+    ],
+    "arginin": [
+        "CGU", "CGC", "CGA", "CGG", "AGA", "AGG"
+    ],
+    "izoleucin": [
+        "AUU", "AUC", "AUA"
+    ],
+    "START": [
+        "AGU"
+    ],
+    "treonin": [
+        "ACU", "ACC", "ACA", "ACG"
+    ],
+    "aszparagin": [
+        "AAU", "AAC"
+    ],
+    "lizin": [
+        "AAA", "AAG"
+    ],
+    "valin": [
+        "GUU", "GUC", "GUA", "GUG"
+    ],
+    "alanin": [
+        "GCU", "GCC", "GCA", "GCG"
+    ],
+    "aszparaginsav": [
+        "GAU", "GAC"
+    ],
+    "glutaminsav": [
+        "GAA", "GAG"
+    ],
+    "glicin": [
+        "GGU", "GGC", "GGA", "GGG"
+    ]
+}
