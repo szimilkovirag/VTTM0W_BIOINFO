@@ -2,7 +2,7 @@ import argparse
 import json
 
 
-class MessengerRnsHandler:
+class MessengerRnaHandler:
     def __init__(self, dna):
         self.dna = dna
 
@@ -13,23 +13,23 @@ class MessengerRnsHandler:
         print(protein)
 
     def transcription(self, dna):
-        '''Create a messenger RNS from a branch of the DNA according to these rules:
+        '''Create a messenger RNA from a branch of the DNA according to these rules:
             - T --> A
             - A --> U
             - G --> C
             - C --> G'''
-        rns = ''
+        rna = ''
         for base in dna:
             if base == 'T':
-                rns = rns + 'A'
+                rna = rna + 'A'
             elif base == 'A':
-                rns = rns + 'U'
+                rna = rna + 'U'
             elif base == 'G':
-                rns = rns + 'C'
+                rna = rna + 'C'
             elif base == 'C':
-                rns = rns + 'G'
+                rna = rna + 'G'
 
-        return rns
+        return rna
 
     def translation(self, rna, amino_acids):
         '''Create amino acids from RNA'''
@@ -79,6 +79,6 @@ if __name__ == '__main__':
 
     args = arg_parser.parse_args()
 
-    handler = MessengerRnsHandler(args.deoxy_ribonucleic_acid)
+    handler = MessengerRnaHandler(args.deoxy_ribonucleic_acid)
 
     handler.run()
