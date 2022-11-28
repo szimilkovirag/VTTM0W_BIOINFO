@@ -35,8 +35,8 @@
     "izoleucin": [
         "AUU", "AUC", "AUA"
     ],
-    "START": [
-        "AGU"
+    "START/metionin": [
+        "AUG"
     ],
     "treonin": [
         "ACU", "ACC", "ACA", "ACG"
