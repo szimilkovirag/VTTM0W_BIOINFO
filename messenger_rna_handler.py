@@ -71,14 +71,18 @@ class MessengerRnaHandler:
 
 
 if __name__ == '__main__':
-    arg_parser = argparse.ArgumentParser()
+    #arg_parser = argparse.ArgumentParser()
 
-    arg_parser.add_argument('-dna', '--deoxy_ribonucleic_acid',
-                            default="",
-                            help='This is a string which defines the DNA chain. It consists of base elements(A, T, C, G)')
+    # arg_parser.add_argument('-dna', '--deoxy_ribonucleic_acid',
+                             # default="",
+                            # help='This is a string which defines the DNA chain. It consists of base elements(A, T, C, G)')
 
-    args = arg_parser.parse_args()
+    # args = arg_parser.parse_args()
 
-    handler = MessengerRnaHandler(args.deoxy_ribonucleic_acid)
+    # handler = MessengerRnaHandler(args.deoxy_ribonucleic_acid)
+
+    deoxy_ribonucleic_acid = input('Type in the DNA: ')
+
+    handler = MessengerRnaHandler(deoxy_ribonucleic_acid)
 
     handler.run()
